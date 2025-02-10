@@ -1,11 +1,8 @@
-# Devin.cursorrules
-
-Transform your $20 Cursor/Windsurf into a Devin-like experience in one minute! This repository contains configuration files and tools that enhance your Cursor or Windsurf IDE with advanced agentic AI capabilities similar to Devin, including:
+# Multi-Agent .cursorrules
 
 - Process planning and self-evolution
 - Extended tool usage (web browsing, search, LLM-powered analysis)
 - Automated execution (for Windsurf in Docker containers)
-
 ## Usage
 
 1. Copy all files from this repository to your project folder
@@ -20,8 +17,6 @@ This project includes experimental support for a multi-agent system that enhance
 
 - **Planner** (powered by OpenAI's o1 model): Handles high-level analysis, task breakdown, and strategic planning
 - **Executor** (powered by Claude): Implements specific tasks, runs tests, and handles implementation details
-
-[Actual .cursorrules file](https://github.com/grapeot/devin.cursorrules/blob/multi-agent/.cursorrules#L3)
 
 ### Key Benefits
 
@@ -122,12 +117,3 @@ The test suite includes:
 - Search engine tests (DuckDuckGo integration)
 - Web scraper tests (Playwright-based scraping)
 - LLM API tests (OpenAI integration)
-
-## Background
-
-For detailed information about the motivation and technical details behind this project, check out the blog post: [Turning $20 into $500 - Transforming Cursor into Devin in One Hour](https://yage.ai/cursor-to-devin-en.html)
-
-## License
-
-MIT License
-# cursor-multi-agent-template
